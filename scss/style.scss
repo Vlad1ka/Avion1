@@ -1,0 +1,462 @@
+// Обнуление стилей
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Подключение стилей
+@font-face {
+    font-family: Satoshi;
+    src: url(../asset/fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: ClashDisplay;
+    src: url(../asset/fonts/ClashDisplay-Regular.ttf);
+}
+
+// Стили для шапки сайта
+.header{
+    height: 132px;
+    padding: 20px 28px 0 28px;
+    margin: 0 auto;
+
+    .container{
+        width: 1384px;
+        margin: 0 auto;
+
+    }
+
+    &__menu{
+        display: flex;
+        align-items: center;
+        padding: 0 0 20px 0;
+
+    }
+
+    &__logo{
+        margin-left: 643px;
+    }
+    
+    // Стили для навигации
+    nav{
+        width: 675px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 20px 354px;
+        color: #726E8D;
+        font-family: Satoshi;
+    }
+
+    hr{
+        border: 1px solid #0000001A;
+    }
+
+    &__profile{
+        margin-left: 612px;
+        display: flex;
+        
+        img:nth-of-type(1){
+            margin-right: 16px;
+        }
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+// Стили для баннер
+.banner{
+    width: 1280px;
+    height: 584px;
+    margin: 0 auto;
+    background-color: #2A254B;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    &__heading{
+        width: 513px;
+        color: white;
+        font-family: ClashDisplay;
+        font-size: 32px;
+        padding: 60px 0px 41px 60px;
+        line-height: 44.8px;
+    }
+
+    &__btn{
+        width: 170px;
+        height: 56px;
+        background-color: #F9F9F926;
+        color: white;
+        font-family: Satoshi;
+        border: none;
+        margin-left: 60px;
+    }
+
+    &__title{
+        width: 602px;
+        color: white;
+        font-family: Satoshi;
+        font-size: 18px;
+        margin: 196px 0 0 60px;
+        line-height: 27px;
+    }
+}
+
+// Стили для блока с отличиями бренда
+.different{
+    height: 355px;
+    margin: 0 auto;
+    padding-top: 60px;
+
+    &__heading{
+        font-family: ClashDisplay;
+        font-size: 24px;
+        color: #2A254B;
+        text-align: center;
+    }
+    
+    &__points{
+        width: 1250px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 51px;
+    }
+
+    &__points__point{
+
+        p:nth-of-type(1){
+            font-size: 20px;
+            font-family: ClashDisplay;
+            color: #2A254B;
+            margin: 16px 0 8px 0;
+        }
+
+        p:nth-of-type(2){
+            width: 270px;
+            font-family: Satoshi;
+            color: #2A254B;
+            line-height: 24px;
+        }
+    }
+}
+
+// Стили для карточек с товарами
+.newCeramics{
+    width: 1440px;
+    height: 761px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    h4{
+        width: 1280px;
+        margin: 0 auto;
+        font-family: ClashDisplay;
+        font-weight: 400;
+        font-size: 32px;
+        color: #2A254B;
+    }
+
+    &__cards{
+        width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 33px;
+
+        &__item{
+            width: 305px;
+            height: 462px;
+            color: #2A254B;
+
+            img{
+                width: 305px;
+                height: 375px;
+            }
+
+            p:nth-of-type(1){
+                font-family: ClashDisplay;
+                font-size: 20px;
+                margin-top: 24px;
+            }
+
+            p:nth-of-type(2){
+                font-family: Satoshi;
+                font-size: 18px;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    &__btn{
+        width: 170px;
+        height: 56px;
+        border: none;
+        background-color: #F9F9F9;
+        color: #2A254B;
+        font-family: Satoshi;
+        margin: 35px 0 0 635px;
+    }
+}
+
+// Стили для блока с другими товарами
+.ourProducts{
+    width: 1440px;
+    height: 744px;
+    margin: 0 auto;
+    padding-top: 64px;
+
+    h4{
+        width: 1280px;
+        margin: 0 auto;
+        font-family: ClashDisplay;
+        font-weight: 400;
+        font-size: 32px;
+        color: #2A254B;
+    }
+
+    &__cards{
+        width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 25px;
+
+        &__item_1{
+            width: 630px;
+            height: 462px;
+            color: #2A254B;
+
+            p:nth-of-type(1){
+                font-family: ClashDisplay;
+                font-size: 20px;
+                margin-top: 24px;
+            }
+
+            p:nth-of-type(2){
+                font-family: Satoshi;
+                font-size: 18px;
+                margin-top: 8px;
+            }
+        }
+
+        &__item{
+            width: 305px;
+            height: 462px;
+            color: #2A254B;
+
+            img{
+                width: 305px;
+                height: 375px;
+            }
+
+            p:nth-of-type(1){
+                font-family: ClashDisplay;
+                font-size: 20px;
+                margin-top: 24px;
+            }
+
+            p:nth-of-type(2){
+                font-family: Satoshi;
+                font-size: 18px;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    &__btn{
+        width: 170px;
+        height: 56px;
+        border: none;
+        background-color: #F9F9F9;
+        color: #2A254B;
+        font-family: Satoshi;
+        margin: 0 auto;
+        margin: 42px 0 0 635px;
+    }
+}
+
+// Стили для блока вступления в клуб
+.join{
+    height: 481px;
+    background-color: #F9F9F9;
+    padding-top: 52px;
+
+    &__base{
+        width: 1273px;
+        height: 364px;
+        background-color: white;
+        margin: 0 auto;
+
+        h1{
+            font-size: 36px;
+            font-weight: 400;
+            font-family: ClashDisplay;
+            padding: 68px 0 0 351px;
+            color: #2A254B;
+        }
+
+        p{
+            width: 470px;
+            color: #2A254B;
+            line-height: 24px;
+            font-family: Satoshi;
+            margin: 16px 0 0 401px;
+            text-align: center;
+        }
+
+        input{
+            width: 354px;
+            height: 56px;
+            background-color: #F9F9F9;
+            border: none;
+            font-family: Satoshi;
+            margin: 72px 0 0 400px;
+            padding-left: 32px;
+            color: #2A254B;
+        }
+
+        &__btn{
+            width: 118px;
+            height: 56px;
+            background-color: #2A254B;
+            font-family: Satoshi;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+// Стили для блока с торговыми точками
+.outlets{
+    width: 1440px;
+    height: 603px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    &__title{
+        padding: 72px 0 0 84px;
+
+        h2{
+            width: 514px;
+            font-family: ClashDisplay;
+            font-weight: 400;
+            color: #2A254B;
+            line-height: 33.6px;
+        }
+
+        p{
+            width: 536px;
+            margin-top: 25px;
+            line-height: 21.6px;
+            font-family: Satoshi;
+            color: #505977;
+        }
+
+        &__btn{
+            width: 150px;
+            height: 56px;
+            background-color: #F9F9F9;
+            color: #2A254B;
+            font-family: Satoshi;
+            margin-top: 196px;
+            border: none;
+        }
+    }
+}
+
+// Стили для подвала
+.footer{
+    width: 1440px;
+    height: 380px;
+    background-color: #2A254B;
+    color: white;
+    margin: 0 auto;
+
+    .container{
+        width: 1440px;
+        padding: 58px 82px 0 82px;
+        display: flex;
+    }
+
+    &__columns{
+        display: flex;
+        h4{
+            font-family: ClashDisplay;
+            font-weight: 400;
+        }
+
+        p{
+            font-family: Satoshi;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+
+        &__categories{
+            margin-left: 109px;
+        }
+
+        &__ourCompany{
+            margin-left: 135px;
+        }
+    }
+
+    &__join{
+        margin-left: 105px;
+        h4{
+            font-weight: 400;
+            font-family: ClashDisplay;
+        }
+        
+        input{
+            width: 509px;
+            height: 56px;
+            background-color: #FFFFFF26;
+            border: none;
+            font-family: Satoshi;
+            padding-left: 32px;
+            color: white;
+            margin-top: 16px;
+        }
+
+        &__btn{
+            width: 118px;
+            height: 56px;
+            background-color: white;
+            font-family: Satoshi;
+            color: #2A254B;
+            border: none;
+        }
+    }
+
+    hr{
+        width: 1277px;
+        margin: 0 auto;
+        margin-top: 48px;
+        color: #4E4D93;
+        border: 1px solid #4E4D93;
+    }
+
+    &__media{
+        width: 1277px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 24px;
+        align-items: center;
+        font-family: Satoshi;
+        font-size: 14px;
+
+        &__icons{
+            width: 264px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

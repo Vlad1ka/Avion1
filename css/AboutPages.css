@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../asset/fonts/Satoshi-Regular.ttf);
+}
+@font-face {
+  font-family: ClashDisplay;
+  src: url(../asset/fonts/ClashDisplay-Regular.ttf);
+}
+.header .container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header__delivery {
+  width: 1440px;
+  height: 41px;
+  padding: 0 22px 0 516px;
+  background-color: #2A254B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__delivery img {
+  width: 12px;
+  height: 12px;
+}
+.header__delivery__text {
+  width: 407px;
+  font-size: 14px;
+  font-family: Satoshi;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.header__delivery__text img {
+  width: 16px;
+  height: 16px;
+}
+.header__menu {
+  height: 30px;
+  margin: 21px 51px 20px 28px;
+  display: flex;
+  align-items: center;
+}
+.header__menu__contact {
+  width: 215px;
+  margin-left: 954px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Satoshi;
+  color: #726E8D;
+}
+.header__menu__profile {
+  width: 80px;
+  height: 16px;
+  margin-left: 47px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-container {
+  width: 1440px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 20px 0 0 318px;
+  background-color: #F9F9F9;
+}
+.header .nav-container nav {
+  width: 803px;
+  display: flex;
+  justify-content: space-between;
+  color: #726E8D;
+  font-family: Satoshi;
+}
+.header .nav-container nav a {
+  text-decoration: none;
+}
+
+.brand {
+  width: 1440px;
+  height: 246px;
+  margin: 0 auto;
+  padding: 67px 0 0 367px;
+  font-size: 36px;
+  font-family: ClashDisplay;
+  color: #2A254B;
+}
+.brand p {
+  width: 704px;
+  line-height: 50.4px;
+}
+
+.outlets {
+  width: 1440px;
+  height: 603px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.outlets__title {
+  padding: 72px 0 0 84px;
+}
+.outlets__title h2 {
+  width: 514px;
+  font-family: ClashDisplay;
+  font-weight: 400;
+  color: #2A254B;
+  line-height: 33.6px;
+}
+.outlets__title p {
+  width: 536px;
+  margin-top: 25px;
+  line-height: 21.6px;
+  font-family: Satoshi;
+  color: #505977;
+}
+.outlets__title__btn {
+  width: 150px;
+  height: 56px;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  font-family: Satoshi;
+  margin-top: 196px;
+  border: none;
+}
+
+.service {
+  width: 1440px;
+  height: 603px;
+  margin: 0 auto;
+  display: flex;
+}
+.service__title {
+  padding: 72px 0 0 84px;
+}
+.service__title h2 {
+  width: 514px;
+  font-family: ClashDisplay;
+  font-weight: 400;
+  color: #2A254B;
+  line-height: 33.6px;
+}
+.service__title p {
+  width: 536px;
+  margin-top: 25px;
+  line-height: 21.6px;
+  font-family: Satoshi;
+  color: #505977;
+}
+.service__title__btn {
+  width: 150px;
+  height: 56px;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  font-family: Satoshi;
+  margin-top: 196px;
+  border: none;
+}
+
+.different {
+  height: 355px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.different__heading {
+  font-family: ClashDisplay;
+  font-size: 24px;
+  color: #2A254B;
+  text-align: center;
+}
+.different__points {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 51px;
+}
+.different__points__point p:nth-of-type(1) {
+  font-size: 20px;
+  font-family: ClashDisplay;
+  color: #2A254B;
+  margin: 16px 0 8px 0;
+}
+.different__points__point p:nth-of-type(2) {
+  width: 270px;
+  font-family: Satoshi;
+  color: #2A254B;
+  line-height: 24px;
+}
+
+.join {
+  width: 1440px;
+  height: 443px;
+  margin: 0 auto;
+  background-image: url(../asset/media/About/sign-up.jpg);
+  background-repeat: no-repeat;
+}
+.join__base {
+  width: 1273px;
+  height: 364px;
+  color: white;
+  font-size: 18px;
+}
+.join__base h1 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: ClashDisplay;
+  padding: 97px 0 0 473px;
+}
+.join__base h2 {
+  width: 470px;
+  height: 54px;
+  line-height: 24px;
+  font-family: Satoshi;
+  margin: 12px 0 0 485px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+.join__base input {
+  width: 354px;
+  height: 56px;
+  background-color: #F9F9F9;
+  border: none;
+  font-family: Satoshi;
+  margin: 40px 0 0 484px;
+  padding-left: 32px;
+  color: #2A254B;
+}
+.join__base__btn {
+  width: 118px;
+  height: 56px;
+  background-color: #2A254B;
+  font-family: Satoshi;
+  color: white;
+  border: none;
+}
+.join__base__advantage {
+  width: 442px;
+  margin: 30px 0 0 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: Satoshi;
+}
+.join__base__advantage__item {
+  height: 24px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.join__base__advantage__item img {
+  width: 16px;
+  height: 16px;
+}
+.join__base__advantage__item p {
+  height: 24px;
+  margin-left: 8px;
+}
+
+.footer {
+  width: 1440px;
+  height: 380px;
+  background-color: #2A254B;
+  color: white;
+  margin: 0 auto;
+  padding: 58px 82px 0 82px;
+}
+.footer .container {
+  display: flex;
+}
+.footer__columns {
+  display: flex;
+}
+.footer__columns h4 {
+  font-family: ClashDisplay;
+  font-weight: 400;
+}
+.footer__columns p {
+  font-family: Satoshi;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.footer__columns__categories {
+  margin-left: 109px;
+}
+.footer__columns__ourCompany {
+  margin-left: 135px;
+}
+.footer__join {
+  margin-left: 105px;
+}
+.footer__join h4 {
+  font-weight: 400;
+  font-family: ClashDisplay;
+}
+.footer__join input {
+  width: 509px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  border: none;
+  font-family: Satoshi;
+  padding-left: 32px;
+  color: white;
+  margin-top: 16px;
+}
+.footer__join__btn {
+  width: 118px;
+  height: 56px;
+  background-color: white;
+  font-family: Satoshi;
+  color: #2A254B;
+  border: none;
+}
+.footer hr {
+  width: 1277px;
+  margin: 0 auto;
+  margin-top: 48px;
+  color: #4E4D93;
+  border: 1px solid #4E4D93;
+}
+.footer__media {
+  width: 1277px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 24px;
+  align-items: center;
+  font-family: Satoshi;
+  font-size: 14px;
+}
+.footer__media__icons {
+  width: 264px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=AboutPages.css.map */

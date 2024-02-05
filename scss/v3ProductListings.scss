@@ -1,0 +1,295 @@
+// Обнуление стилей
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Поключение стилей 
+@font-face {
+    font-family: Satoshi;
+    src: url(../asset/fonts/Satoshi-Regular.ttf);
+}
+
+@font-face {
+    font-family: ClashDisplay;
+    src: url(../asset/fonts/ClashDisplay-Regular.ttf);
+}
+
+// Стили для шапки сайта
+.header{
+    height: 303px;
+
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__menu{
+        width: 1280px;
+        height: 30px;
+        display: flex;
+        margin: 25px 0px 0px 80px;
+        align-items: center;
+        justify-content: space-between;
+
+        &__profile{
+            width: 80px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 308px;
+        }
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    // Стили для навигации
+    nav{
+        width: 675px;
+        display: flex;
+        justify-content: space-between;
+        color: #726E8D;
+        font-family: Satoshi;
+        align-items: center;
+        margin-left: 152px;
+    }
+
+    hr{
+        width: 1440px;
+        border: 1px solid #EBE8F4;
+        margin-top: 25px;
+    }
+
+    // Стили для баннера
+    h1{
+        font-size: 36px;
+        font-family: ClashDisplay;
+        font-weight: 400;
+        color: #2A254B;
+        margin: 80px 0 0 575px;
+    }
+
+    // Стили для блока с пунктами сортировки
+    &__sorting{
+        width: 1280px;
+        height: 64px;
+        align-items: center;
+        margin: 24px 0 25px 80px;
+        display: flex;
+
+        &__items{
+            width: 517px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 48px;
+
+            &__item{
+                height: 24px;
+                display: flex;
+                justify-content: space-between;
+                font-family: Satoshi;
+                color: #2A254B;
+                align-items: center;
+
+                img{
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        &__by{
+            height: 24px;
+            display: flex;
+            margin-left: 454px;
+            font-family: Satoshi;
+            color: #2A254B;
+            align-items: center;
+
+            &__date{
+                margin-left: 40px;
+                display: flex;
+                
+                img{
+                    margin-left: 8px;
+                }
+            }
+        }
+        
+    }
+}
+
+// Стили для блока с карточками
+.cards{
+    width: 1440px;
+    margin: 0 auto;
+
+    &__wrapper{
+        display: flex;
+        margin-left: 60px;
+    }
+
+    &__item{
+        width: 305px;
+        height: 462px;
+        margin: 28px 0 20px 20px;
+        color: #2A254B;
+
+        p:nth-of-type(1){
+            font-family: ClashDisplay;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+
+        p:nth-of-type(2){
+            font-family: Satoshi;
+            font-size: 18px;
+            margin-top: 8px;
+        }
+    }
+
+    &__btn{
+        width: 170px;
+        height: 56px;
+        margin: 28px 0 40px 635px;
+        background-color: #F9F9F9;
+        color: #2A254B;
+        font-family: Satoshi;
+        border: none;
+    }
+}
+
+// Стили для блока вступления в клуб
+.join{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+
+    &__text{
+        padding: 71px 0 0 72px;
+        color: #2A254B;
+
+        p:nth-of-type(1){
+            font-family: ClashDisplay;
+            font-size: 32px;
+        }
+
+        p:nth-of-type(2){
+            width: 470px;
+            line-height: 24px;
+            font-family: Satoshi;
+            margin-top: 21px;
+        }
+
+        input{
+            width: 354px;
+            height: 56px;
+            background-color: #F9F9F9;
+            border: none;
+            font-family: Satoshi;
+            padding-left: 32px;
+            margin-top: 216px;
+            color: #2A254B;
+        }
+
+        &__btn{
+            width: 118px;
+            height: 56px;
+            background-color: #2A254B;
+            font-family: Satoshi;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+// Стили для подвала
+.footer{
+    width: 1440px;
+    height: 380px;
+    background-color: #2A254B;
+    color: white;
+    margin: 0 auto;
+
+    .container{
+        width: 1440px;
+        padding: 58px 82px 0 82px;
+        display: flex;
+    }
+
+    &__columns{
+        display: flex;
+        h4{
+            font-family: ClashDisplay;
+            font-weight: 400;
+        }
+
+        p{
+            font-family: Satoshi;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+
+        &__categories{
+            margin-left: 109px;
+        }
+
+        &__ourCompany{
+            margin-left: 135px;
+        }
+    }
+
+    &__join{
+        margin-left: 105px;
+        h4{
+            font-weight: 400;
+            font-family: ClashDisplay;
+        }
+        
+        input{
+            width: 509px;
+            height: 56px;
+            background-color: #FFFFFF26;
+            border: none;
+            font-family: Satoshi;
+            padding-left: 32px;
+            color: white;
+            margin-top: 16px;
+        }
+
+        &__btn{
+            width: 118px;
+            height: 56px;
+            background-color: white;
+            font-family: Satoshi;
+            color: #2A254B;
+            border: none;
+        }
+    }
+
+    hr{
+        width: 1277px;
+        margin: 0 auto;
+        margin-top: 48px;
+        color: #4E4D93;
+        border: 1px solid #4E4D93;
+    }
+
+    &__media{
+        width: 1277px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 24px;
+        align-items: center;
+        font-family: Satoshi;
+        font-size: 14px;
+
+        &__icons{
+            width: 264px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

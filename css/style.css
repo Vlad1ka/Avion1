@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../asset/fonts/Satoshi-Regular.ttf);
+}
+@font-face {
+  font-family: ClashDisplay;
+  src: url(../asset/fonts/ClashDisplay-Regular.ttf);
+}
+.header {
+  height: 132px;
+  padding: 20px 28px 0 28px;
+  margin: 0 auto;
+}
+.header .container {
+  width: 1384px;
+  margin: 0 auto;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  padding: 0 0 20px 0;
+}
+.header__logo {
+  margin-left: 643px;
+}
+.header nav {
+  width: 675px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px 354px;
+  color: #726E8D;
+  font-family: Satoshi;
+}
+.header hr {
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.header__profile {
+  margin-left: 612px;
+  display: flex;
+}
+.header__profile img:nth-of-type(1) {
+  margin-right: 16px;
+}
+.header a {
+  text-decoration: none;
+}
+
+.banner {
+  width: 1280px;
+  height: 584px;
+  margin: 0 auto;
+  background-color: #2A254B;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner__heading {
+  width: 513px;
+  color: white;
+  font-family: ClashDisplay;
+  font-size: 32px;
+  padding: 60px 0px 41px 60px;
+  line-height: 44.8px;
+}
+.banner__btn {
+  width: 170px;
+  height: 56px;
+  background-color: rgba(249, 249, 249, 0.1490196078);
+  color: white;
+  font-family: Satoshi;
+  border: none;
+  margin-left: 60px;
+}
+.banner__title {
+  width: 602px;
+  color: white;
+  font-family: Satoshi;
+  font-size: 18px;
+  margin: 196px 0 0 60px;
+  line-height: 27px;
+}
+
+.different {
+  height: 355px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.different__heading {
+  font-family: ClashDisplay;
+  font-size: 24px;
+  color: #2A254B;
+  text-align: center;
+}
+.different__points {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 51px;
+}
+.different__points__point p:nth-of-type(1) {
+  font-size: 20px;
+  font-family: ClashDisplay;
+  color: #2A254B;
+  margin: 16px 0 8px 0;
+}
+.different__points__point p:nth-of-type(2) {
+  width: 270px;
+  font-family: Satoshi;
+  color: #2A254B;
+  line-height: 24px;
+}
+
+.newCeramics {
+  width: 1440px;
+  height: 761px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.newCeramics h4 {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: ClashDisplay;
+  font-weight: 400;
+  font-size: 32px;
+  color: #2A254B;
+}
+.newCeramics__cards {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+.newCeramics__cards__item {
+  width: 305px;
+  height: 462px;
+  color: #2A254B;
+}
+.newCeramics__cards__item img {
+  width: 305px;
+  height: 375px;
+}
+.newCeramics__cards__item p:nth-of-type(1) {
+  font-family: ClashDisplay;
+  font-size: 20px;
+  margin-top: 24px;
+}
+.newCeramics__cards__item p:nth-of-type(2) {
+  font-family: Satoshi;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.newCeramics__btn {
+  width: 170px;
+  height: 56px;
+  border: none;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  font-family: Satoshi;
+  margin: 35px 0 0 635px;
+}
+
+.ourProducts {
+  width: 1440px;
+  height: 744px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.ourProducts h4 {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: ClashDisplay;
+  font-weight: 400;
+  font-size: 32px;
+  color: #2A254B;
+}
+.ourProducts__cards {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.ourProducts__cards__item_1 {
+  width: 630px;
+  height: 462px;
+  color: #2A254B;
+}
+.ourProducts__cards__item_1 p:nth-of-type(1) {
+  font-family: ClashDisplay;
+  font-size: 20px;
+  margin-top: 24px;
+}
+.ourProducts__cards__item_1 p:nth-of-type(2) {
+  font-family: Satoshi;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.ourProducts__cards__item {
+  width: 305px;
+  height: 462px;
+  color: #2A254B;
+}
+.ourProducts__cards__item img {
+  width: 305px;
+  height: 375px;
+}
+.ourProducts__cards__item p:nth-of-type(1) {
+  font-family: ClashDisplay;
+  font-size: 20px;
+  margin-top: 24px;
+}
+.ourProducts__cards__item p:nth-of-type(2) {
+  font-family: Satoshi;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.ourProducts__btn {
+  width: 170px;
+  height: 56px;
+  border: none;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  font-family: Satoshi;
+  margin: 0 auto;
+  margin: 42px 0 0 635px;
+}
+
+.join {
+  height: 481px;
+  background-color: #F9F9F9;
+  padding-top: 52px;
+}
+.join__base {
+  width: 1273px;
+  height: 364px;
+  background-color: white;
+  margin: 0 auto;
+}
+.join__base h1 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: ClashDisplay;
+  padding: 68px 0 0 351px;
+  color: #2A254B;
+}
+.join__base p {
+  width: 470px;
+  color: #2A254B;
+  line-height: 24px;
+  font-family: Satoshi;
+  margin: 16px 0 0 401px;
+  text-align: center;
+}
+.join__base input {
+  width: 354px;
+  height: 56px;
+  background-color: #F9F9F9;
+  border: none;
+  font-family: Satoshi;
+  margin: 72px 0 0 400px;
+  padding-left: 32px;
+  color: #2A254B;
+}
+.join__base__btn {
+  width: 118px;
+  height: 56px;
+  background-color: #2A254B;
+  font-family: Satoshi;
+  color: white;
+  border: none;
+}
+
+.outlets {
+  width: 1440px;
+  height: 603px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.outlets__title {
+  padding: 72px 0 0 84px;
+}
+.outlets__title h2 {
+  width: 514px;
+  font-family: ClashDisplay;
+  font-weight: 400;
+  color: #2A254B;
+  line-height: 33.6px;
+}
+.outlets__title p {
+  width: 536px;
+  margin-top: 25px;
+  line-height: 21.6px;
+  font-family: Satoshi;
+  color: #505977;
+}
+.outlets__title__btn {
+  width: 150px;
+  height: 56px;
+  background-color: #F9F9F9;
+  color: #2A254B;
+  font-family: Satoshi;
+  margin-top: 196px;
+  border: none;
+}
+
+.footer {
+  width: 1440px;
+  height: 380px;
+  background-color: #2A254B;
+  color: white;
+  margin: 0 auto;
+}
+.footer .container {
+  width: 1440px;
+  padding: 58px 82px 0 82px;
+  display: flex;
+}
+.footer__columns {
+  display: flex;
+}
+.footer__columns h4 {
+  font-family: ClashDisplay;
+  font-weight: 400;
+}
+.footer__columns p {
+  font-family: Satoshi;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.footer__columns__categories {
+  margin-left: 109px;
+}
+.footer__columns__ourCompany {
+  margin-left: 135px;
+}
+.footer__join {
+  margin-left: 105px;
+}
+.footer__join h4 {
+  font-weight: 400;
+  font-family: ClashDisplay;
+}
+.footer__join input {
+  width: 509px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  border: none;
+  font-family: Satoshi;
+  padding-left: 32px;
+  color: white;
+  margin-top: 16px;
+}
+.footer__join__btn {
+  width: 118px;
+  height: 56px;
+  background-color: white;
+  font-family: Satoshi;
+  color: #2A254B;
+  border: none;
+}
+.footer hr {
+  width: 1277px;
+  margin: 0 auto;
+  margin-top: 48px;
+  color: #4E4D93;
+  border: 1px solid #4E4D93;
+}
+.footer__media {
+  width: 1277px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 24px;
+  align-items: center;
+  font-family: Satoshi;
+  font-size: 14px;
+}
+.footer__media__icons {
+  width: 264px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
